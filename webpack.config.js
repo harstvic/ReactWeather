@@ -28,6 +28,8 @@ module.exports = {
       WeatherForm:    'app/components/WeatherForm.jsx',
       WeatherMessage: 'app/components/WeatherMessage.jsx',
       About:          'app/components/About.jsx',
+      AboutTech:      'app/components/AboutTech.jsx',
+      AboutVideo:     'app/components/AboutVideo.jsx',
       Examples:       'app/components/Examples.jsx',
       openWeatherMap: 'app/api/openWeatherMap.jsx'
     },

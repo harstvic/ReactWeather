@@ -3,7 +3,7 @@ var {Link} = require('react-router');
 
 var Examples = (props) => {
   return (
-    <div>
+    <div className="columns medium-10 large-8 small-centered">
       <h1 className="text-center">Examples</h1>
       <p>Here are a few examples locations to try out:</p>
       <ol>
