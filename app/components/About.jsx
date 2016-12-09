@@ -111,8 +111,10 @@ var About = React.createClass({
 
         </div>
         <div className="row" style={{marginTop: 100}}>
-          <h3>How we make websites</h3>
-          <AboutVideo videoId={VIDEO_ID}/>
+          <div className="columns large-12 small-12 ">
+            <h3>How we make websites</h3>
+            <AboutVideo videoId={VIDEO_ID}/>
+          </div>
         </div>
       </div>
     );
