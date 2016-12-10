@@ -100,7 +100,7 @@ var About = React.createClass({
     console.log(About);
     return (
       <div className="text-center">
-        <h1>About</h1>
+        <h1 className="page-title">About</h1>
         <p>
           This is a weather application
         </p>
