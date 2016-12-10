@@ -21,6 +21,9 @@ var ErrorModal = React.createClass({
       <div id="error-modal" className="reveal tiny text-center" data-reveal="">
         <h4>{title}</h4>
         <p>{message}</p>
+        <button className="close-button" data-close="" arial-label="Close modal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
         <p>
           <button className="button hollow" data-close="">
             Okay
