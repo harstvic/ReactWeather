@@ -10,10 +10,16 @@ var WeatherMessage = React.createClass({
     var {icon} = weather.weather[0];
     const imgSrc = `${OPEN_WEATHER_ICON}${icon}.png`;
 
+    temp = Math.ceil(Number(temp)).toString();
+
+    if (Number(temp) > 0) {
+      temp = '+'.concat(temp);
+    }
+
     return (
       <div>
         <h3 className="text-center">
-          <img src={imgSrc} alt=""/> It's it {temp} in {location}.
+          <img src={imgSrc} alt=""/> {temp} &#8451; in {location}.
         </h3>
       </div>
     );
